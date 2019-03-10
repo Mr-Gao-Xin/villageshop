@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/changel/changel",
+    "pages/shopcart/shopcart",
+    "pages/order/order",
+    "pages/personalinfo/wx0a07f7a8a3ee5327"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}
