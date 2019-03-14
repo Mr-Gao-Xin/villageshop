@@ -4,12 +4,38 @@
     "pages/changel/changel",
     "pages/shopcart/shopcart",
     "pages/order/order",
-    "pages/personalinfo/wx0a07f7a8a3ee5327"
+    "pages/personalinfo/personalinfo"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#01a33e",
+    "navigationBarTitleText": "小区团购",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color":"#444",
+    "selectedColor":"#01a33e",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/changel/changel",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/shopcart/shopcart",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/personalinfo/personalinfo",
+        "text": "我的"
+      }
+    ]
   }
 }

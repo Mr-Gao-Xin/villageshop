@@ -1,4 +1,4 @@
-// pages/personalinfo/wx0a07f7a8a3ee5327.js
+// pages/personalinfo/personalinfo.js
 Page({
 
   /**
