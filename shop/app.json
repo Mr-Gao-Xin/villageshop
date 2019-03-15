@@ -17,22 +17,32 @@
     "selectedColor":"#01a33e",
     "list": [
       {
+        "iconPath":"img/index.png",
+        "selectedIconPath":"img/index_active.png",
         "pagePath": "pages/index/index",
         "text": "首页"
       },
       {
+        "iconPath": "img/changel.png",
+        "selectedIconPath": "img/changel_active.png",
         "pagePath": "pages/changel/changel",
         "text": "分类"
       },
       {
+        "iconPath": "img/shopcart.png",
+        "selectedIconPath": "img/shopcart_active.png",
         "pagePath": "pages/shopcart/shopcart",
         "text": "购物车"
       },
       {
+        "iconPath": "img/order.png",
+        "selectedIconPath": "img/order_active.png",
         "pagePath": "pages/order/order",
         "text": "订单"
       },
       {
+        "iconPath": "img/personalinfo.png",
+        "selectedIconPath": "img/personalinfo_active.png",
         "pagePath": "pages/personalinfo/personalinfo",
         "text": "我的"
       }

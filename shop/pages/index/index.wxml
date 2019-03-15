@@ -1,1 +1,16 @@
-<text>首页</text>
+<!-- 头部的滑动选择器 -->
+<view class='top_scroll_view'>
+  <scroll-view  scroll-x class='scroll_view'>
+    <view class="index_scroll_view_list {{activeIndex==index?'active':''}}" data-index='{{index}}' wx:for='{{list}}' wx:key='index' bindtap='setChanel'>
+    {{item.info}}
+    </view>
+  </scroll-view>
+</view>
+<!-- banner swiper组件 -->
+<swiper indicator-dots="{{dot}}" indicator-color='white' indicator-active-color='blue'>
+  <block wx:for='{{bannerUrl}}' wx:key='{{index}}'>
+    <swiper-item>
+      <image class='bannerImg' src='{{item.url}}'></image>
+    </swiper-item>
+  </block>
+</swiper>
