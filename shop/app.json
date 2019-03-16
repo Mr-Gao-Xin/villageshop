@@ -4,13 +4,15 @@
     "pages/changel/changel",
     "pages/shopcart/shopcart",
     "pages/order/order",
-    "pages/personalinfo/personalinfo"
+    "pages/personalinfo/personalinfo",
+    "pages/components/things/things"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#01a33e",
     "navigationBarTitleText": "小区团购",
-    "navigationBarTextStyle":"white"
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#eeeeee"
   },
   "tabBar": {
     "color":"#444",

@@ -14,3 +14,37 @@
     </swiper-item>
   </block>
 </swiper>
+<!-- 收获框 -->
+<view class='search_box'>
+  <input placeholder='搜索所有商品' class='search_input'></input>
+  <icon type='search' class='search_icon'></icon>
+</view>
+<!-- 卖家信息 -->
+<view class='saller'>
+  <view class='saller_avr'>
+    <image src='/img/banner.jpg'></image>
+  </view>
+  <view class='center'>
+    <view class='first'>
+      <view class='text_color'>郑州市 西区</view>
+      <view class='text_color toggle'>切换团长</view>
+    </view>
+    <view class='second'>
+      开心果商行
+    </view>
+    <view class='third text_color'>
+      只为你的幸福生活
+    </view>
+  </view>
+  <view class='right'>
+    <view class='text_color'>粉丝数</view>
+    <view class='red'>96</view>
+    <view class='text_color'>购买指数</view>
+    <view class='red'>1403</view>
+  </view>
+</view>
+<!-- 商品展示 -->
+<view class='thing'>
+  <image class='thing_img' src='/img/banner.jpg'></image>
+</view>
+

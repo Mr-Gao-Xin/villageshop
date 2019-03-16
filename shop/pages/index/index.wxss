@@ -1,3 +1,9 @@
+page{
+  background-color: #eee;
+}
+.text_color{
+  color: #757575;
+}
 .top_scroll_view{
   width: 100%;
   background-color: #01a33e;
@@ -10,7 +16,7 @@
 }
 .index_scroll_view_list{
   color: #fff;
-  font-size: 36rpx;
+  font-size: 26rpx;
   display: inline-block;
   margin: 30rpx 30rpx 0rpx 30rpx;
  
@@ -20,4 +26,88 @@
 }
 .bannerImg{
   width: 100%;
+}
+.search_box{
+  height: 88rpx;
+  padding: 15rpx 30rpx;
+  display: flex;
+  margin-bottom: 14rpx;
+  background-color: #fff;
+  line-height: 88rpx;
+}
+.search_input{
+  background-color: #eeeeee;
+  border-radius: 12rpx;
+  font-size: 24rpx;
+  color:#757575;
+  text-align: center;
+  width: 90%;
+  height: 68rpx;
+  margin-top: 10rpx;
+  vertical-align: center;
+}
+.search_icon{
+  text-align: center;
+  margin-left: 10rpx;
+  font-size: 50rpx;
+  vertical-align: center;
+}
+.saller{
+  padding: 30rpx;
+  display: flex;
+  font-size: 26rpx;
+  margin-bottom: 14rpx;
+  background-color: #fff;
+}
+.saller_avr{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.saller_avr image{
+   width: 120rpx;
+   height: 120rpx;
+}
+.center{
+  padding:10rpx;
+  width: 420rpx;
+  margin-left: 12rpx;
+  border-right: 2rpx solid #eee;
+}
+.first{
+  display: flex;
+  justify-content: space-between;
+  line-height: 40rpx;
+}
+.second{
+  line-height: 40rpx;
+}
+/* 切换团长 */
+.toggle{
+  width: 100rpx;
+  height: 30rpx;
+  font-size: 24rpx;
+  background-color: linear-gradient(red,blue);
+}
+.right{
+  margin-left: 10rpx;
+  text-align: right;
+}
+.red{
+  color: red;
+  font-weight: bolder;
+  font-size: 26rpx;
+  text-align: right;
+}
+/* 商品的css */
+.thing{
+  padding:30rpx;
+  display: flex;
+  margin-bottom: 14rpx;
+  background-color:#fff;
+}
+.thing_img{
+  width: 260rpx;
+  height: 260rpx;
 }
