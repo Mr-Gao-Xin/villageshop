@@ -5,9 +5,32 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    list:[
+      {
+        id:0,
+        info:"全部"
+      }, {
+        id: 1,
+        info: "待付款"
+      }, {
+        id: 2,
+        info: "待发货"
+      }, {
+        id: 3,
+        info: "已发货"
+      }, {
+        id: 4,
+        info: "已完成"
+      }
+    ],
+    activeIndex:0,
   },
-
+  
+  setChanel(e) {
+    this.setData({
+      activeIndex:e.target.dataset.index
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

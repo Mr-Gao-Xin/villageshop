@@ -27,31 +27,7 @@ page{
 .bannerImg{
   width: 100%;
 }
-.search_box{
-  height: 88rpx;
-  padding: 15rpx 30rpx;
-  display: flex;
-  margin-bottom: 14rpx;
-  background-color: #fff;
-  line-height: 88rpx;
-}
-.search_input{
-  background-color: #eeeeee;
-  border-radius: 12rpx;
-  font-size: 24rpx;
-  color:#757575;
-  text-align: center;
-  width: 90%;
-  height: 68rpx;
-  margin-top: 10rpx;
-  vertical-align: center;
-}
-.search_icon{
-  text-align: center;
-  margin-left: 10rpx;
-  font-size: 50rpx;
-  vertical-align: center;
-}
+
 .saller{
   padding: 30rpx;
   display: flex;
@@ -102,12 +78,89 @@ page{
 }
 /* 商品的css */
 .thing{
+  margin-top: 14rpx;
   padding:30rpx;
   display: flex;
-  margin-bottom: 14rpx;
   background-color:#fff;
+  border-bottom: 1rpx solid #00a43d;
 }
 .thing_img{
   width: 260rpx;
   height: 260rpx;
 }
+.thing_main{
+  padding-left: 20rpx;
+}
+.thing_will_sall_time{
+  font-size: 16rpx;
+  color: #545454;
+}
+.thing .thing_title{
+  font-size: 26rpx;
+  color: #333;
+  height: 70rpx;
+}
+.thing .thing_label{
+
+}
+.thing .thing_label text{
+  font-size: 18rpx;
+  color: #fff;
+  background-color: #00a43d;
+  padding: 5rpx;
+  margin-left:10rpx;
+  border-radius: 6rpx;
+}
+.thing .thing_num{
+  font-size: 18rpx;
+  color: #545454;
+  margin-top:16rpx;
+}
+.thing .thing_num .thing_num_active{
+  font-size: 22rpx;
+  color: red;
+  font-weight: bolder;
+}
+.thing .thing_price{
+  display: flex;
+  justify-content: space-between;
+  font-size: 22rpx;
+  color:red;
+  margin-top: 16rpx;
+}
+.thing .thing_now_price{
+  font-size: 28rpx;
+  font-weight: bolder;
+}
+.thing .thing_pal_price{
+  color:#444;
+  text-decoration: line-through;
+  margin-left:12rpx;
+}
+.thing .thing_shopcart{
+  width: 160rpx;
+  border-radius: 16rpx;
+  border: 1rpx solid #00a43d;
+  color: #00a43d;
+  font-size: 26rpx;
+  font-weight: bold;
+  padding: 20rpx;
+  text-align: center;
+}
+.thing_time{
+  font-size: 16rpx;
+  color: #444;
+  text-align: right;
+  margin-top:36rpx;
+}
+.thing_seller{
+  padding: 0 30rpx;
+  height: 80rpx;
+  background-color: #fff;
+  font-size: 22rpx;
+  color: #333;
+  text-align: right;
+  line-height: 80rpx;
+  margin-bottom: 14rpx;
+}
+

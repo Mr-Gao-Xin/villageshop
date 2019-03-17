@@ -1,3 +1,97 @@
-<!--pages/changel/changel.wxml-->
-<text>pages/changel/changel.wxml</text>
-<text>自定义组件页面</text>
+<!-- pages/changel/changel.wxml -->
+<search></search>
+<view class='changel_main_box'>
+    <scroll-view scroll-y class="changel_left_list">
+        <text class="changel_left_text active">所有商品</text>
+        <text class="changel_left_text">所有商品</text>
+        <text class="changel_left_text">所有商品</text>
+        <text class="changel_left_text">所有商品</text>
+        <text class="changel_left_text">所有商品</text>
+        <text class="changel_left_text">所有商品</text>
+        <text class="changel_left_text">所有商品</text>
+        <text class="changel_left_text">所有商品</text>
+        <text class="changel_left_text">所有商品</text>
+        <text class="changel_left_text">所有商品</text>
+        <text class="changel_left_text">所有商品</text>
+        <text class="changel_left_text">所有商品</text>
+        <text class="changel_left_text">所有商品</text>
+        <text class="changel_left_text">所有商品</text>
+        <text class="changel_left_text">所有商品</text>
+        <text class="changel_left_text">所有商品</text>
+        <text class="changel_left_text">所有商品</text>
+        <text class="changel_left_text">所有商品</text>
+        <text class="changel_left_text">所有商品</text>
+    </scroll-view>
+    <scroll-view scroll-y class='changel_right_list'>
+        <view class="thing_single_box">
+            <image class="shop_img" src="/img/shop.jpg" />
+            <view class="shop_title">志高不锈钢保温壶双层12L</view>
+            <view class='thing_num'>
+                <text>已售<text class='thing_num_active'>199</text> 份/还剩<text class='thing_num_active'>19</text>份
+                </text>
+            </view>
+            <view class='thing_price'>
+                <view>￥<text class='thing_now_price'>6.9</text>
+                    <text class='thing_pal_price'>￥15</text>
+                </view>
+                <view class='thing_shopcart'>加入购物车</view>
+            </view>
+        </view>
+        <view class="thing_single_box">
+            <image class="shop_img" src="/img/shop.jpg" />
+            <view class="shop_title">志高不锈钢保温壶双层12L</view>
+            <view class='thing_num'>
+                <text>已售<text class='thing_num_active'>199</text> 份/还剩<text class='thing_num_active'>19</text>份
+                </text>
+            </view>
+            <view class='thing_price'>
+                <view>￥<text class='thing_now_price'>6.9</text>
+                    <text class='thing_pal_price'>￥15</text>
+                </view>
+                <view class='thing_shopcart'>加入购物车</view>
+            </view>
+        </view>
+        <view class="thing_single_box">
+            <image class="shop_img" src="/img/shop.jpg" />
+            <view class="shop_title">志高不锈钢保温壶双层12L</view>
+            <view class='thing_num'>
+                <text>已售<text class='thing_num_active'>199</text> 份/还剩<text class='thing_num_active'>19</text>份
+                </text>
+            </view>
+            <view class='thing_price'>
+                <view>￥<text class='thing_now_price'>6.9</text>
+                    <text class='thing_pal_price'>￥15</text>
+                </view>
+                <view class='thing_shopcart'>加入购物车</view>
+            </view>
+        </view>
+        <view class="thing_single_box">
+            <image class="shop_img" src="/img/shop.jpg" />
+            <view class="shop_title">志高不锈钢保温壶双层12L</view>
+            <view class='thing_num'>
+                <text>已售<text class='thing_num_active'>199</text> 份/还剩<text class='thing_num_active'>19</text>份
+                </text>
+            </view>
+            <view class='thing_price'>
+                <view>￥<text class='thing_now_price'>6.9</text>
+                    <text class='thing_pal_price'>￥15</text>
+                </view>
+                <view class='thing_shopcart'>加入购物车</view>
+            </view>
+        </view>
+        <view class="thing_single_box">
+            <image class="shop_img" src="/img/shop.jpg" />
+            <view class="shop_title">志高不锈钢保温壶双层12L</view>
+            <view class='thing_num'>
+                <text>已售<text class='thing_num_active'>199</text> 份/还剩<text class='thing_num_active'>19</text>份
+                </text>
+            </view>
+            <view class='thing_price'>
+                <view>￥<text class='thing_now_price'>6.9</text>
+                    <text class='thing_pal_price'>￥15</text>
+                </view>
+                <view class='thing_shopcart'>加入购物车</view>
+            </view>
+        </view>
+    </scroll-view>
+</view>

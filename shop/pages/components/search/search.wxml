@@ -1,0 +1,6 @@
+<!--pages/components/search/search.wxml-->
+<!-- 收获框 -->
+<view class='search_box'>
+  <input placeholder='搜索所有商品' class='search_input'></input>
+  <icon type='search' class='search_icon'></icon>
+</view>

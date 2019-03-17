@@ -1,2 +1,83 @@
-<!--pages/shopcart/shopcart.wxml-->
-<text>pages/shopcart/shopcart.wxml</text>
+<!-- 顶部的返回和删除 -->
+<view class="shopcart_top_back">
+    <view class="back">我的购物车</view>
+    <view class="del">删除</view>
+</view>
+    <!-- 没有商品时的状况 -->
+<view  class="no_shop_incart" wx:if="{{isThingIncart}}">
+    <text class="no_thing">购物车中无商品</text>
+    <button type='primary' class="go_buy">去逛逛</button>
+</view>
+<!-- 购物车中有商品的情况 -->
+<view class="thing_shop_shopcart">
+    <view class="shopcart_single_thing">
+        <checkbox value="" checked="" class="singel_checkbox"/>
+        <image src="/img/shop.jpg" class="shopcart_thing_img"></image>
+        <view class="shop_cart_single_right">
+            <view class="singel_title">志高不锈钢保温壶双层12L</view>
+            <view class="singel_bottom">
+                <view class="shopcart_price">$9.9</view>
+                <view class="add_rad">
+                    <button>-</button>
+                    <input type="text"value='1'></input>
+                    <button>+</button>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="shopcart_single_thing">
+        <checkbox value="" checked="" class="singel_checkbox"/>
+        <image src="/img/shop.jpg" class="shopcart_thing_img"></image>
+        <view class="shop_cart_single_right">
+            <view class="singel_title">志高不锈钢保温壶双层12L</view>
+            <view class="singel_bottom">
+                <view class="shopcart_price">$9.9</view>
+                <view class="add_rad">
+                    <button>-</button>
+                    <input type="text"value='1'></input>
+                    <button>+</button>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="shopcart_single_thing">
+        <checkbox value="" checked="" class="singel_checkbox"/>
+        <image src="/img/shop.jpg" class="shopcart_thing_img"></image>
+        <view class="shop_cart_single_right">
+            <view class="singel_title">志高不锈钢保温壶双层12L</view>
+            <view class="singel_bottom">
+                <view class="shopcart_price">$9.9</view>
+                <view class="add_rad">
+                    <button>-</button>
+                    <input type="text"value='1'></input>
+                    <button>+</button>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="shopcart_single_thing">
+        <checkbox value="" checked="" class="singel_checkbox"/>
+        <image src="/img/shop.jpg" class="shopcart_thing_img"></image>
+        <view class="shop_cart_single_right">
+            <view class="singel_title">志高不锈钢保温壶双层12L</view>
+            <view class="singel_bottom">
+                <view class="shopcart_price">$9.9</view>
+                <view class="add_rad">
+                    <button>-</button>
+                    <input type="text"value='1'></input>
+                    <button>+</button>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+
+<!-- 底部的固定内容 -->
+<view class="shopcart_bottom_fix">
+    <label class="checkbox_box">
+        <checkbox value="" checked="" class="all_checkbox"/>全选
+    </label>
+    <view class="shopcar_all_price_box"> 价格：<text class="shopcart_all_pricce">0.00</text></view>
+    <view class="payt_down">结算</view>
+     
+</view>

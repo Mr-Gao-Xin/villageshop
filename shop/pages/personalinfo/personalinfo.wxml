@@ -1,2 +1,91 @@
 <!--pages/personalinfo/personalinfo.wxml-->
-<text>pages/personalinfo/personalinfo.wxml</text>
+<!-- 头部的个人信息展示 -->
+<view class='per_top_menu'>
+    <view class="per_avr_box">
+        <image src="/img/shop.jpg" class="per_avr"></image>
+        <view class="per_name">
+            <view>Mr Xin</view>
+            <view class="per_id">ID 009</view>
+        </view>
+    </view>
+    
+    <image src="/img/qr.png" class="per_qr"></image>
+</view>    
+<view class="per_order_toitle">
+    <view>全部订单</view>
+    <view>查看全部</view>
+</view>
+<view class="per_order_img">
+    <view>
+        <image src="/img/daifukuan.png" class="per_order_img_list"></image>
+        <text>待付款</text>
+    </view>
+    <view>
+        <image src="/img/daifahuo.png" class="per_order_img_list"></image>
+        <text>已付款</text>
+    </view>
+    <view>
+        <image src="/img/yifahuo.png" class="per_order_img_list"></image>
+        <text>已发货</text>
+    </view>
+    <view>
+        <image src="/img/yiwancheng.png" class="per_order_img_list"></image>
+        <text>已完成</text>
+    </view>
+</view>
+<view class="per_menu_list">
+    <view class="left">
+        <view class="left_img" style="background-color:green">
+            <image src="/img/积分.png"></image>
+        </view>
+        <view class="left_tit">我的积分</view>
+    </view>
+    <view class="per_cust">
+        <image src="/img/箭头.png"></image>
+    </view>
+</view>
+<view class="per_menu_list">
+    <view class="left">
+        <view class="left_img" style="background-color:green">
+            <image src="/img/积分.png"></image>
+        </view>
+        <view class="left_tit">我的优惠券</view>
+    </view>
+    <view class="per_cust">
+        <image src="/img/箭头.png"></image>
+    </view>
+</view>
+<view class="per_menu_list">
+    <view class="left">
+        <view class="left_img" style="background-color:green">
+            <image src="/img/积分.png"></image>
+        </view>
+        <view class="left_tit">到货清单</view>
+    </view>
+    <view class="per_cust">
+        <image src="/img/箭头.png"></image>
+    </view>
+</view>
+<view class="per_menu_list">
+    <view class="left">
+        <view class="left_img" style="background-color:green">
+            <image src="/img/积分.png"></image>
+        </view>
+        <view class="left_tit">我的发布</view>
+    </view>
+    <view class="per_cust">
+        <image src="/img/箭头.png"></image>
+    </view>
+</view>
+<view class="per_menu_list">
+    <view class="left">
+        <view class="left_img" style="background-color:green">
+            <image src="/img/积分.png"></image>
+        </view>
+        <view class="left_tit">我的资料</view>
+    </view>
+    <view class="per_cust">
+        <image src="/img/箭头.png"></image>
+    </view>
+</view>
+

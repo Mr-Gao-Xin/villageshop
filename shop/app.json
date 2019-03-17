@@ -1,10 +1,10 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/changel/changel",
-    "pages/shopcart/shopcart",
-    "pages/order/order",
     "pages/personalinfo/personalinfo",
+    "pages/order/order",
+    "pages/index/index",
+    "pages/shopcart/shopcart",
+    "pages/changel/changel",
     "pages/components/things/things"
   ],
   "window":{

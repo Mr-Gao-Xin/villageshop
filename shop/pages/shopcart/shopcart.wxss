@@ -1,1 +1,104 @@
-/* pages/shopcart/shopcart.wxss */
+/* 顶部返回组件 */
+page{
+    background-color: #f5f5f5;
+}
+.shopcart_top_back{
+    background-color: #01a33e;
+    padding: 30rpx 30rpx;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24rpx;
+    color: #fff;
+    text-align: center;
+}
+.no_thing{
+    display: block;
+    text-align: center;
+    color: #d8d8d8;
+    margin-top:45%;
+}
+.go_buy{
+    width: 30%;
+    margin-top: 30rpx;
+}
+.shopcart_single_thing{
+    padding: 30rpx;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    bordder-bottom:14rpx solid #f5f5f5;
+}
+.shopcart_thing_img{
+    width: 100rpx;
+    height: 100rpx;
+}
+.singel_title{
+    font: 26rpx;
+    color: #333;
+}
+.singel_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.shopcart_price{
+    font-size: 38rpx;
+    font-weight: bold;
+    color: red;
+}
+.add_rad{
+    display: flex;
+    justify-content: space-between;
+    border: 1rpx solid #008e34;
+    border-radius: 15rpx;
+}
+.add_rad button{
+    width: 68rpx;
+    height: 64rpx;
+    background-color: #01a33e;
+    color: #fff;
+    text-align: center;
+    line-height: 64rpx;
+    font-size: 36rpx;
+}
+.add_rad input{
+    width: 68rpx;
+    height: 64rpx;
+    text-align: center;
+}
+/* 多选框 */
+.singel_checkbox{
+    border-radius:50%; 
+}
+/* 底部固定条目 */
+.shopcart_bottom_fix{
+    box-sizing: border-box;
+    width: 100%;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 30rpx; */
+    background-color: #fff;
+}
+.checkbox_box{
+    display: block;
+    font-size: 28rpx;
+    margin:  auto 0;
+}
+.shopcar_all_price_box{
+    font-size: 28rpx;
+    margin:  auto 0;
+}
+.shopcart_all_pricce{
+    font-size: 36rpx;
+    color: red;
+}
+.payt_down{
+    font-size: 36rpx;
+    background-color: #01a33e;
+    text-align: center;
+    width: 200rpx;
+    padding: 30rpx 0 ;
+    color: #fff;
+}
