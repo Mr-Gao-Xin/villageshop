@@ -1,0 +1,5 @@
+/* pages/shopThing/shopThing.wxss */
+.bannerImg{
+    width: 100%;
+    height: 400rpx; 
+  }

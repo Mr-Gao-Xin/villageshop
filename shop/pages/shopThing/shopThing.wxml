@@ -1,0 +1,8 @@
+<!--pages/shopThing/shopThing.wxml-->
+<swiper indicator-dots="{{dot}}" indicator-color='white' indicator-active-color='blue' style="height:400rpx;">
+    <block wx:for='{{bannerUrl}}' wx:key='{{index}}'>
+      <swiper-item style="height:400rpx">
+        <image class='bannerImg' src='{{item.url}}'></image>
+      </swiper-item>
+    </block>
+  </swiper>

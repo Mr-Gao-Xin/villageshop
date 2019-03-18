@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/shopThing/shopThing",
     "pages/personalinfo/personalinfo",
     "pages/order/order",
     "pages/index/index",
