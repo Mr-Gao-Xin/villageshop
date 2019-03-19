@@ -6,7 +6,8 @@
     "pages/index/index",
     "pages/shopcart/shopcart",
     "pages/changel/changel",
-    "pages/components/things/things"
+    "pages/components/things/things",
+    "pages/authorize/authorize"
   ],
   "window":{
     "backgroundTextStyle":"light",

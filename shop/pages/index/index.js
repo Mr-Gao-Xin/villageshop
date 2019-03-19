@@ -41,5 +41,8 @@ Page({
     this.setData({
       activeIndex:e.target.dataset.index
     })
-  } 
+  } ,
+  onLoad:function(){
+    wx.login() 
+  }
 })
