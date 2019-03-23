@@ -1,0 +1,33 @@
+<!-- 顶部的scroll-view滑动 -->
+<view class="order_scroll_box">
+    <scroll-view scroll-x class="order_top_list">
+        <view class="order_item {{activeIndex==index?'active':''}}" data-index='{{index}}' wx:for='{{list}}' wx:key='index' bindtap='setChanel'>
+        {{item.info}}
+        </view>
+    </scroll-view>
+</view>
+<!-- 搜索框的实现 -->
+<search></search>
+<!-- 单个订单的实例 -->
+<view class="order_thing_box">
+    <view class="order_num_box">
+        <view class="order_num">订单编号 1234567890</view>
+        <view class="order_state">已完成</view>
+    </view>
+    <view class="order_thing_img">
+        <image src="/img/shop.jpg" class="order_img"></image>
+    </view>
+    <view class="order_seller">
+        MrXin[15670761931]
+    </view>
+    <view class="order_pay_time">
+        <view>下单时间</view>
+        <view class="red">03-10 19：21</view>
+    </view>
+    <view class="order_look_order">
+        <view class="order_list">
+            共<text class="red">1</text>件，总价<text class="red">￥9.9</text>
+        </view>
+        <button>订单详情</button>
+    </view>
+</view>

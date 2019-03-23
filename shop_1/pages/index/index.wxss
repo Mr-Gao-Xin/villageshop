@@ -1,0 +1,166 @@
+page{
+  background-color: #eee;
+}
+.text_color{
+  color: #757575;
+}
+.top_scroll_view{
+  width: 100%;
+  background-color: #01a33e;
+  border-bottom:1rpx solid #fff;
+}
+.scroll_view{
+  width:100%;
+  height: 84rpx;
+  white-space: nowrap;
+}
+.index_scroll_view_list{
+  color: #fff;
+  font-size: 26rpx;
+  display: inline-block;
+  margin: 30rpx 30rpx 0rpx 30rpx;
+ 
+}
+.active{
+   border-bottom:1rpx solid #fff;
+}
+.bannerImg{
+  width: 100%;
+}
+
+.saller{
+  padding: 30rpx;
+  display: flex;
+  font-size: 26rpx;
+  margin-bottom: 14rpx;
+  background-color: #fff;
+}
+.saller_avr{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.saller_avr image{
+   width: 120rpx;
+   height: 120rpx;
+}
+.center{
+  padding:10rpx;
+  width: 420rpx;
+  margin-left: 12rpx;
+  border-right: 2rpx solid #eee;
+}
+.first{
+  display: flex;
+  justify-content: space-between;
+  line-height: 40rpx;
+}
+.second{
+  line-height: 40rpx;
+}
+/* 切换团长 */
+.toggle{
+  width: 100rpx;
+  height: 30rpx;
+  font-size: 24rpx;
+  background-color: linear-gradient(red,blue);
+}
+.right{
+  margin-left: 10rpx;
+  text-align: right;
+}
+.red{
+  color: red;
+  font-weight: bolder;
+  font-size: 26rpx;
+  text-align: right;
+}
+/* 商品的css */
+.thing{
+  margin-top: 14rpx;
+  padding:30rpx;
+  display: flex;
+  background-color:#fff;
+  border-bottom: 1rpx solid #00a43d;
+}
+.thing_img{
+  width: 260rpx;
+  height: 260rpx;
+}
+.thing_main{
+  padding-left: 20rpx;
+}
+.thing_will_sall_time{
+  font-size: 16rpx;
+  color: #545454;
+}
+.thing .thing_title{
+  font-size: 26rpx;
+  color: #333;
+  height: 70rpx;
+}
+.thing .thing_label{
+
+}
+.thing .thing_label text{
+  font-size: 18rpx;
+  color: #fff;
+  background-color: #00a43d;
+  padding: 5rpx;
+  margin-left:10rpx;
+  border-radius: 6rpx;
+}
+.thing .thing_num{
+  font-size: 18rpx;
+  color: #545454;
+  margin-top:16rpx;
+}
+.thing .thing_num .thing_num_active{
+  font-size: 22rpx;
+  color: red;
+  font-weight: bolder;
+}
+.thing .thing_price{
+  display: flex;
+  justify-content: space-between;
+  font-size: 22rpx;
+  color:red;
+  margin-top: 16rpx;
+}
+.thing .thing_now_price{
+  font-size: 28rpx;
+  font-weight: bolder;
+}
+.thing .thing_pal_price{
+  color:#444;
+  text-decoration: line-through;
+  margin-left:12rpx;
+}
+.thing .thing_shopcart{
+  width: 160rpx;
+  border-radius: 16rpx;
+  border: 1rpx solid #00a43d;
+  color: #00a43d;
+  font-size: 26rpx;
+  font-weight: bold;
+  padding: 20rpx;
+  text-align: center;
+}
+.thing_time{
+  font-size: 16rpx;
+  color: #444;
+  text-align: right;
+  margin-top:36rpx;
+}
+.thing_seller{
+  padding: 0 30rpx;
+  height: 80rpx;
+  background-color: #fff;
+  font-size: 22rpx;
+  color: #333;
+  text-align: right;
+  line-height: 80rpx;
+  margin-bottom: 14rpx;
+}
+

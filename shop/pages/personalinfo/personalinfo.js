@@ -5,14 +5,36 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    userInfoShow:false,
+    nickname:'',
+    img:''
   },
-
+  getUserInfo(){
+    wx.getUserInfo({
+      success: (res) => {
+        var json = res.userInfo;
+        if(!this.userInfoShow){
+          this.setData({
+            nickname: json.nickName,
+            img: json.avatarUrl,
+            userInfoShow: true
+          })
+        }else{
+          this.setData({
+            nickname: json.nickName,
+            img: json.avatarUrl,
+            userInfoShow: false
+          })
+        }
+      }
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
 
+  onLoad: (options)=> {
+    console.log(options)
   },
 
   /**

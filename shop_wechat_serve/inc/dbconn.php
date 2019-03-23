@@ -2,8 +2,8 @@
 	header("Content-type:text/html;charset=utf-8");
 	//创建数据库连接
 	$servername = "localhost";
-	$username = "village";
-	$password = "123456";
+	$username = "root";
+	$password = "root";
 	$dbname = "village";
 	// 创建与MySQL数据库的连接对象实例： $conn
 	$conn = new mysqli($servername, $username, $password,$dbname);

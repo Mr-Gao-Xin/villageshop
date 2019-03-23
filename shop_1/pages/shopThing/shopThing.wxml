@@ -1,0 +1,74 @@
+<!--pages/shopThing/shopThing.wxml-->
+<swiper indicator-dots="{{dot}}" indicator-color='white' indicator-active-color='blue' style="height:400rpx;">
+  <block wx:for='{{bannerUrl}}' wx:key='{{index}}'>
+    <swiper-item style="height:400rpx">
+      <image class='bannerImg' src='{{item.url}}'></image>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="thing_price">
+  <view class="price_left">
+    <text>团购价:</text>
+    <text class='now_price'>￥19.9</text>
+    <text class='lay_price'>￥25.5</text>
+  </view>
+  <view class='price_right'>
+    <view>即将结束</view>
+    <view>00：51：59</view>
+  </view>
+</view>
+  <!-- 底部的定位-->
+  <view class='shopthing_fixed'>
+      <view class="shopthing_fixed_left">
+        <image src='/img/index.png' ></image>
+        <view class="shopthing_fixed_title">首页</view>
+      </view>
+      <view class="shopthing_fixed_left">
+          <image src='/img/shopcart.png'></image>
+          <view class="shopthing_fixed_title">购物车</view>
+      </view>
+      <view class="shopthing_fixed_pay">
+        <view class="add_shopcart">加入购物车</view>
+        <view class="pay_singel">单间购买</view>
+      </view>
+  </view>
+  <!-- 商品名称 -->
+  <view class='thing_title'>
+    【精品团购】海南红心火龙果2个/份
+  </view>
+  <!-- 分享 -->
+  <view class='thing_share'>
+    <view class='thing_num'>
+      <text class='thing_sell'>已售191份</text>
+      <text>/还剩191份</text>
+    </view>
+    <view class='share_btn'>
+      分享
+    </view>
+  </view>
+  <!-- tab切换 -->
+  <view class='thing_msg_tab'>
+    <text class='active'>商品名称</text>
+    <text>购买纪录</text>
+    <text>直采直播</text>
+  </view>
+  <!--相关商品 -->
+  <view class='leisi_thing'>
+    ----这些东西和以下东西一起被购买----
+  </view>
+  <!-- tab切换盒子 -->
+  <view class='tab_box'>
+    <view class="tba_box_singel">
+      <scroll-view  scroll-x class='scroll_view'>
+        <view>
+          <image src='/img/banner.jpg'></image>
+        </view>
+        <view>
+          <image src='/img/banner.jpg'></image>
+        </view>
+        <view>
+          <image src='/img/banner.jpg'></image>
+        </view>
+      </scroll-view>
+    </view>
+  </view>

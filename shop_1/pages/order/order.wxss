@@ -1,0 +1,86 @@
+/* pages/order/order.wxss */
+page{
+    background-color: #f5f5f5;
+}
+.red{
+    color: red;
+}
+ .order_scroll_box{
+     width: 100%;
+ }
+ .order_top_list{
+     width: 100%;
+     background-color: #fff;
+     white-space: nowrap;
+     height: 80rpx;
+ }
+ .order_item{
+    display: inline-block;
+    margin: 30rpx 30rpx 0rpx 30rpx;
+    font-size: 24rpx;
+    color: #333;
+ }
+ .active{
+    border-bottom:1rpx solid #01a33e;
+    color: #01a33e;
+ }
+ /* 单个订单的样式 */
+ .order_thing_box{
+     padding: 30rpx 0;
+     background-color: #fff;
+ }
+ .order_num_box{
+     display: flex;
+     justify-content: space-between;
+     border-bottom: 1rpx solid #f5f5f5;
+     padding:15rpx;
+ }
+ .order_num{
+    font-size: 26rpx;
+    color: #333;
+ }
+ .order_state{
+     color: red;
+     font-size: 26rpx;
+     font-weight: bold;
+ }
+ .order_thing_img{
+     padding: 15rpx;
+     border-bottom: 1rpx solid #f5f5f5;
+     display: flex;
+ }
+ .order_img{
+     width: 140rpx;
+     height: 140rpx;
+ }
+ .order_seller{
+     padding: 15rpx;
+     font-size: 26rpx;
+     color: #333;
+     border-bottom: 1rpx solid #f5f5f5;
+ }
+ .order_pay_time{
+     display: flex;
+     border-bottom: 1rpx solid #f5f5f5;
+     justify-content: space-between;
+     padding: 15rpx;
+     font-size: 26rpx;
+ }
+ .order_look_order{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1rpx solid #f5f5f5;
+    padding: 15rpx;
+ }
+ .order_list{
+     font-size: 26rpx;
+     margin:  auto 0;
+ }
+ .order_look_order button{
+     font-size: 26rpx;
+     color: #fff;
+     background-color: #01a33e;
+     height: 60rpx;
+     line-height: 60rpx;
+     text-align: center;
+ }

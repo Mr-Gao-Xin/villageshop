@@ -1,0 +1,152 @@
+<!-- 头部的滑动选择器 -->
+<view class='top_scroll_view'>
+  <scroll-view  scroll-x class='scroll_view'>
+    <view class="index_scroll_view_list {{activeIndex==index?'active':''}}" data-index='{{index}}' wx:for='{{list}}' wx:key='index' bindtap='setChanel'>
+    {{item.info}}
+    </view>
+  </scroll-view>
+</view>
+<!-- banner swiper组件 -->
+<swiper indicator-dots="{{dot}}" indicator-color='white' indicator-active-color='blue'>
+  <block wx:for='{{bannerUrl}}' wx:key='{{index}}'>
+    <swiper-item>
+      <image class='bannerImg' src='{{item.url}}'></image>
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 收获框 -->
+<search></search>
+<!-- 卖家信息 -->
+<view class='saller'>
+  <view class='saller_avr'>
+    <image src='/img/banner.jpg'></image>
+  </view>
+  <view class='center'>
+    <view class='first'>
+      <view class='text_color'>郑州市 西区</view>
+      <view class='text_color toggle'>切换团长</view>
+    </view>
+    <view class='second'>
+      开心果商行
+    </view>
+    <view class='third text_color'>
+      只为你的幸福生活
+    </view>
+  </view>
+  <view class='right'>
+    <view class='text_color'>粉丝数</view>
+    <view class='red'>96</view>
+    <view class='text_color'>购买指数</view>
+    <view class='red'>1403</view>
+  </view>
+</view>
+<!-- 商品展示 -->
+<view class='thing'>
+  <view class='thing_img'>
+    <image class='thing_img' src='/img/banner.jpg'></image>
+    <text class='thing_will_sall_time'>预售：03-13：00~03-13 23：00</text>
+  </view>
+  <view class='thing_main'>
+    <view class='thing_title'>万惠源毛巾 颜色随机发约75*35cm/条</view>
+    <view class='thing_label'>
+      <text>新品</text>
+      <text>热卖</text>
+      <text>促销</text>
+    </view>
+    <view class='thing_num'>
+      <text>已售<text class='thing_num_active'>199</text>份/还剩<text class='thing_num_active'>19</text>份</text>
+    </view>
+    <view class='thing_price'>
+      <view>￥<text class='thing_now_price'>6.9</text><text class='thing_pal_price'>￥15</text></view>
+      <view class='thing_shopcart'>加入购物车</view>
+    </view>
+    <view class='thing_time'>
+      提货：03-14 16：00
+    </view>
+  </view>
+</view>
+<view class='thing_seller'>
+  xin,feng等购买了此商品
+</view>
+<view class='thing'>
+  <view class='thing_img'>
+    <image class='thing_img' src='/img/banner.jpg'></image>
+    <text class='thing_will_sall_time'>预售：03-13：00~03-13 23：00</text>
+  </view>
+  <view class='thing_main'>
+    <view class='thing_title'>万惠源毛巾 颜色随机发约75*35cm/条</view>
+    <view class='thing_label'>
+      <text>新品</text>
+      <text>热卖</text>
+      <text>促销</text>
+    </view>
+    <view class='thing_num'>
+      <text>已售<text class='thing_num_active'>199</text>份/还剩<text class='thing_num_active'>19</text>份</text>
+    </view>
+    <view class='thing_price'>
+      <view>￥<text class='thing_now_price'>6.9</text><text class='thing_pal_price'>￥15</text></view>
+      <view class='thing_shopcart'>加入购物车</view>
+    </view>
+    <view class='thing_time'>
+      提货：03-14 16：00
+    </view>
+  </view>
+</view>
+<view class='thing_seller'>
+  xin,feng等购买了此商品
+</view>
+<view class='thing'>
+  <view class='thing_img'>
+    <image class='thing_img' src='/img/banner.jpg'></image>
+    <text class='thing_will_sall_time'>预售：03-13：00~03-13 23：00</text>
+  </view>
+  <view class='thing_main'>
+    <view class='thing_title'>万惠源毛巾 颜色随机发约75*35cm/条</view>
+    <view class='thing_label'>
+      <text>新品</text>
+      <text>热卖</text>
+      <text>促销</text>
+    </view>
+    <view class='thing_num'>
+      <text>已售<text class='thing_num_active'>199</text>份/还剩<text class='thing_num_active'>19</text>份</text>
+    </view>
+    <view class='thing_price'>
+      <view>￥<text class='thing_now_price'>6.9</text><text class='thing_pal_price'>￥15</text></view>
+      <view class='thing_shopcart'>加入购物车</view>
+    </view>
+    <view class='thing_time'>
+      提货：03-14 16：00
+    </view>
+  </view>
+</view>
+<view class='thing_seller'>
+  xin,feng等购买了此商品
+</view>
+<view class='thing'>
+  <view class='thing_img'>
+    <image class='thing_img' src='/img/banner.jpg'></image>
+    <text class='thing_will_sall_time'>预售：03-13：00~03-13 23：00</text>
+  </view>
+  <view class='thing_main'>
+    <view class='thing_title'>万惠源毛巾 颜色随机发约75*35cm/条</view>
+    <view class='thing_label'>
+      <text>新品</text>
+      <text>热卖</text>
+      <text>促销</text>
+    </view>
+    <view class='thing_num'>
+      <text>已售<text class='thing_num_active'>199</text>份/还剩<text class='thing_num_active'>19</text>份</text>
+    </view>
+    <view class='thing_price'>
+      <view>￥<text class='thing_now_price'>6.9</text><text class='thing_pal_price'>￥15</text></view>
+      <view class='thing_shopcart'>加入购物车</view>
+    </view>
+    <view class='thing_time'>
+      提货：03-14 16：00
+    </view>
+  </view>
+</view>
+<view class='thing_seller'>
+  xin,feng等购买了此商品
+</view>
+

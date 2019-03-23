@@ -1,2 +1,9 @@
-<!--pages/authorize/authorize.wxml-->
-<text>pages/authorize/authorize.wxml</text>
+<view>
+  <button bindtap="login" type="primary">请登录</button>
+  <button bindtap='checksession'>登录是否过期</button>
+  <button bindtap='info' open-type='getUserInfo'>获取用户信息</button>
+</view>
+<image src='{{img}}'></image>
+<text>{{city}}</text>
+<text>{{nickname}}</text>
+<text>{{pri}}</text>

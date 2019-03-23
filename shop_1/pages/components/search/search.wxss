@@ -1,0 +1,26 @@
+/* pages/components/search/search.wxss */
+.search_box{
+    height: 88rpx;
+    padding: 15rpx 30rpx;
+    display: flex;
+    margin-bottom: 14rpx;
+    background-color: #fff;
+    line-height: 88rpx;
+  }
+  .search_input{
+    background-color: #eeeeee;
+    border-radius: 12rpx;
+    font-size: 24rpx;
+    color:#757575;
+    text-align: center;
+    width: 90%;
+    height: 68rpx;
+    margin-top: 10rpx;
+    vertical-align: center;
+  }
+  .search_icon{
+    text-align: center;
+    margin-left: 10rpx;
+    font-size: 50rpx;
+    vertical-align: center;
+  }

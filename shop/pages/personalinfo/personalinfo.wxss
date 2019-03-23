@@ -2,6 +2,19 @@
 page{
     background-color: #f5f5f5;
 }
+.login_no{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_no button{
+  width: 20%;
+  height: 80rpx;
+  font-size: 32rpx;
+  color: #333;
+  background-color:#fff;
+}
 .per_top_menu{
     display: flex;
     justify-content: space-between;

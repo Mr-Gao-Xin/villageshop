@@ -1,0 +1,83 @@
+/* pages/changel/changel.wxss */
+page{
+    background-color: #f5f5f5;
+}
+.changel_main_box{
+    display: flex;
+    justify-content: space-between;
+}
+.changel_left_list{
+    width: 25%;
+    height: 100vh;
+    background-color: #fff;
+}
+.changel_left_text{
+    padding: 30rpx;
+    font-size: 26rpx;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    display: block;
+    border-bottom:1rpx solid #f5f5f5;
+}
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+    /* 去除微信的scroll——view的滚动条的作用 */
+  }
+  .active{
+      background-color: #01a33e;
+      color: #fff;
+  }
+  /* 右侧内容的滚动 */
+  .changel_right_list{
+      width: 75%;
+      height: 100vh;
+      margin-left: 10rpx;
+      background-color: #fff;
+  }
+  .shop_img{
+      width: 100%;
+  }
+  .thing_num{
+    font-size: 18rpx;
+    color: #545454;
+    margin-top:16rpx;
+  }
+  .thing_single_box{
+      padding: 10rpx;
+      border-bottom:14rpx solid #f5f5f5;
+  }
+  .thing_num .thing_num_active{
+    font-size: 22rpx;
+    color: red;
+    font-weight: bolder;
+  }
+  .thing_price{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22rpx;
+    color:red;
+    margin-top: 16rpx;
+  }
+  .thing_now_price{
+    font-size: 28rpx;
+    font-weight: bolder;
+    margin-top: 18rpx;
+  }
+  .thing_pal_price{
+    color:#444;
+    text-decoration: line-through;
+    margin-left:12rpx;
+  }
+  .thing_shopcart{
+    width: 160rpx;
+    border-radius: 16rpx;
+    border: 1rpx solid #00a43d;
+    color: #00a43d;
+    font-size: 26rpx;
+    font-weight: bold;
+    padding: 20rpx;
+    text-align: center;
+  }

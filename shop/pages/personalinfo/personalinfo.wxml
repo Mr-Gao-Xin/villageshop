@@ -1,15 +1,18 @@
 <!--pages/personalinfo/personalinfo.wxml-->
 <!-- 头部的个人信息展示 -->
 <view class='per_top_menu'>
-    <view class="per_avr_box">
-        <image src="/img/shop.jpg" class="per_avr"></image>
+    <view class="per_avr_box" wx:if="{{userInfoShow}}">
+        <image src="{{img}}" class="per_avr"></image>
         <view class="per_name">
-            <view>Mr Xin</view>
+            <view>{{nickname}}</view>
             <view class="per_id">ID 009</view>
         </view>
     </view>
-    
-    <image src="/img/qr.png" class="per_qr"></image>
+    <image src="/img/qr.png" class="per_qr" wx:if="{{userInfoShow}}"></image>
+    <!-- 没有获取到用户信息的显示的登录 -->
+    <view wx:if="{{!userInfoShow}}" class='login_no'>
+      <button open-type='getUserInfo' bindtap='getUserInfo' >登录</button>
+    </view>
 </view>    
 <view class="per_order_toitle">
     <view>全部订单</view>

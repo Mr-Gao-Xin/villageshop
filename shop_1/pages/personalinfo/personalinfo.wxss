@@ -1,0 +1,103 @@
+/* pages/personalinfo/personalinfo.wxss */
+page{
+    background-color: #f5f5f5;
+}
+.per_top_menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 30rpx;
+    background-color: #01a33e;
+    border-top:1rpx solid #444;
+    height: 200rpx;
+}
+.per_avr_box{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+}
+.per_avr{
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.per_qr{
+    width: 50rpx;
+    height: 50rpx;
+    margin: auto 0;
+}
+.per_name{
+    font-size: 28rpx;
+    color: #333;
+    margin: auto 0;
+    margin-left: 20rpx;
+}
+.per_id{
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 5rpx;
+    color: #fff;
+    font-size: 24rpx;
+}
+.per_order_toitle{
+    display: flex;
+    justify-content: space-between;
+    padding: 15rpx;
+    border-bottom: 1rpx solid #f5f5f5;
+    font-size: 26rpx;
+    color: #333;
+    background-color: #fff;
+}
+.per_order_img{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+}
+.per_order_img view{
+    width: 25%;
+    border-right:1rpx solid #f5f5f5;
+    text-align: center;
+    padding: 15rpx;
+}
+.per_order_img_list{
+    width: 60rpx;
+    height: 60rpx;
+    display: block;
+    margin:0 auto;
+}
+.per_order_img text{
+    font-size: 24rpx;
+    color: #333;
+}
+/* 底部的list */
+.per_menu_list{
+    display: flex;
+    justify-content: space-between;
+    padding: 15rpx;
+    background-color: #fff;
+    margin-top:14rpx;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    font-size: 28rpx;
+    color: #333;
+}
+.left_tit{
+    margin:auto 0;
+    margin-left: 20rpx;
+    color: #333;
+}
+.left_img{
+
+    border-radius: 15rpx;
+    width: 80rpx;
+    text-align: center;
+}
+.left image{
+    width: 60rpx;
+    height: 60rpx;
+}
+.per_cust image{
+    width: 50rpx;
+    height: 50rpx;
+}
