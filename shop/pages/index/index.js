@@ -39,6 +39,14 @@ Page({
       }
     })
   },
+  // 点及跳转到详情页
+  navigateTo(e){
+    console.log(e)
+    wx.navigateTo({
+      url: '/pages/shopThing/shopThing?id='+e.currentTarget.dataset.thingid,
+    })
+    // wx.
+  },
   onLoad: function() {
     wx.login({
       success: res => {
@@ -52,16 +60,20 @@ Page({
             'content-type': 'application/json' // 默认值
           },
           success(res) {
+            // console.log(res)
             // 设置openid
             wx.setStorageSync('openid', res.data.openid);
             wx.setStorageSync('session_key', res.data.session_key);
+          },
+          fail(res){
+            // console.log(res)
           }
         })
       }
     }),
     wx.checkSession({
-      success: function(red) {
-        // console.log(red, '未过期');
+      success: function(res) {
+        // console.log(res, '未过期');
         // wx.showToast({
         //   title: '登录未过期',
         // })

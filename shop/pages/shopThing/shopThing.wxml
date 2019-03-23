@@ -59,16 +59,5 @@
   <!-- tab切换盒子 -->
   <view class='tab_box'>
     <view class="tba_box_singel">
-      <scroll-view  scroll-x class='scroll_view'>
-        <view>
-          <image src='/img/banner.jpg'></image>
-        </view>
-        <view>
-          <image src='/img/banner.jpg'></image>
-        </view>
-        <view>
-          <image src='/img/banner.jpg'></image>
-        </view>
-      </scroll-view>
     </view>
   </view>

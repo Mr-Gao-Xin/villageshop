@@ -13,19 +13,37 @@ Page({
     wx.getUserInfo({
       success: (res) => {
         var json = res.userInfo;
+        console.log(json)
         if(!this.userInfoShow){
           this.setData({
             nickname: json.nickName,
             img: json.avatarUrl,
             userInfoShow: true
           })
+          
         }else{
           this.setData({
             nickname: json.nickName,
             img: json.avatarUrl,
             userInfoShow: false
           })
-        }
+        };
+        var openid = wx.getStorageSync('openid');
+        wx.request({
+          url: 'http://localhost/add_update_user.php',
+          data: {
+            wexin_info: json.nickName,
+            user_sex: 0,
+            user_age: 18,
+            user_addr: json.city,
+            openid: openid,
+            user_avr: json.avatarUrl,
+            openid: openid
+          },
+          success: res => {
+            console.log(res)
+          }
+        })
       }
     })
   },

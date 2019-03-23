@@ -42,29 +42,29 @@
 </view>
 <!-- 商品展示 -->
 <block wx:for="{{things_list}}" wx:key='index'>
-  <view class='thing'>
-  <view class='thing_img'>
-    <image class='thing_img' src='/imgs/{{item.thing_pic}}'></image>
-    <text class='thing_will_sall_time'>预售：03-13：00~03-13 23：00</text>
-  </view>
-  <view class='thing_main'>
-    <view class='thing_title'>{{item.thing_name}}</view>
-    <view class='thing_label'>
-      <text>新品</text>
-      <text>热卖</text>
-      <text>促销</text>
+  <view class='thing' bindtap='navigateTo' data-thingid='{{item.thing_id}}' data-thingid='{{item.thing_id}}'>
+    <view class='thing_img'>
+      <image class='thing_img' src='/imgs/{{item.thing_pic}}'></image>
+      <text class='thing_will_sall_time'>预售：03-13：00~03-13 23：00</text>
     </view>
-    <view class='thing_num'>
-      <text>已售<text class='thing_num_active'>{{item.thing_num - item.thing_now_num}}</text>份/还剩<text class='thing_num_active'>{{item.thing_now_num}}</text>份</text>
+    <view class='thing_main'>
+      <view class='thing_title'>{{item.thing_name}}</view>
+      <view class='thing_label'>
+        <text>新品</text>
+        <text>热卖</text>
+        <text>促销</text>
+      </view>
+      <view class='thing_num'>
+        <text>已售<text class='thing_num_active'>{{item.thing_num - item.thing_now_num}}</text>份/还剩<text class='thing_num_active'>{{item.thing_now_num}}</text>份</text>
+      </view>
+      <view class='thing_price'>
+        <view>￥<text class='thing_now_price'>{{item.thing_price}}</text><text class='thing_pal_price'>￥{{item.thing_lay_price}}</text></view>
+        <view class='thing_shopcart'>加入购物车</view>
+      </view>
+      <view class='thing_time'>
+        提货：03-14 16：00
+      </view>
     </view>
-    <view class='thing_price'>
-      <view>￥<text class='thing_now_price'>{{item.thing_price}}</text><text class='thing_pal_price'>￥{{item.thing_lay_price}}</text></view>
-      <view class='thing_shopcart'>加入购物车</view>
-    </view>
-    <view class='thing_time'>
-      提货：03-14 16：00
-    </view>
-  </view>
 </view>
 <view class='thing_seller'>
   xin,feng等购买了此商品
